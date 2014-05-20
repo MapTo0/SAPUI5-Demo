@@ -19,17 +19,16 @@ body{
 .sapUiUx3NavBar{
 	text-align: center;
 	border-bottom: none;
-	height: 100%;
+	height: 50px;
 }
-.sapUiUx3NavBar a{
+.sapUiUx3NavBar li a{
 	font-size: 1.8em;
 	color:rgb(50,51,48);
 	font-weight: bold;
-	margin-top:10%;
 
 }
 .sapUiUx3NavBarList{
-	height: 100%;
+	height: 35px;
 	text-align:center;
 	margin-top: 10px;
 }
@@ -47,10 +46,61 @@ body{
 }
 #main-div{
 	margin:0 auto;
-	background-color: white;
+	background-image:url(../images/bg-1.png);
+
 	width: 70%;
 	height:550px;
-	margin-top:-50px;
+	margin-top:-80px;
 	-webkit-box-shadow: 0 0 10px black;
 	box-shadow: 0 0 10px black;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	text-align: center;
 }
+#main-div .sapUiUx3NavBar{
+	text-align: center;
+	border-bottom: none;
+	height: 50px;
+	background:url(../images/submenu-img.png);
+	background-repeat: repeat-x;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	background-size: 50px;
+}
+#main-div .sapUiUx3NavBar li a{
+	font-size: 1.8em;
+	color: white;
+	font-weight: bold;
+
+}
+#main-div .sapUiUx3NavBarList{
+	height: 35px;
+	text-align:center;
+	margin-top: 10px;
+}
+#main-div span{
+	margin-top: 3%;
+	display:block;
+	text-align: center;
+}
+#article{
+	width: 90%;
+	height: 100%;
+	background: transparent;
+	border:none;
+}
+
+/*Some screen si*/
+@media (max-width: 1200px) {
+	#logo-div{
+		display: none;
+	}
+
+	#main-div{
+		margin-top: 50px;
+		width: 95%;
+	}
+	.sapUiUx3NavBarBack, .sapUiUx3NavBarForward, .sapUiIcon, .sapUiIconMirrorInRTL{
+		margin-top: 10px !important;
+	}
+  }
