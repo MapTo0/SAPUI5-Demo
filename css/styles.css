@@ -19,3 +19,24 @@ h1, html, body, div, h2, h3,a{
 #gallery{
 	margin-top: 100px;
 }
+div.sapUiRespGridSpanM4.sapUiRespGridSpanS6{
+	background:red;
+
+}
+div.sapUiRespGridSpanM6.sapUiRespGridSpanS3{
+	background:yellowgreen;
+
+}
+div.sapUiRespGridSpanM12.sapUiRespGridSpanS12{
+	background:skyblue;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.6em;
+	outline:2px solid black;
+}
+.sapUiRespGridSpanL3, .sapUiRespGridSpanL6 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.6em;
+	outline:2px solid black;
+}
