@@ -39,4 +39,14 @@ div.sapUiRespGridSpanM12.sapUiRespGridSpanS12{
 	font-weight: bold;
 	font-size: 1.6em;
 	outline:2px solid black;
+}	
+#BorderLayout1{
+	width: auto !important;
+	display: inline-block;
+	margin-top: 2%;
+}
+#accordionA{
+	float: right;
+	display: inline-block;
+	margin-top: 2%;
 }
